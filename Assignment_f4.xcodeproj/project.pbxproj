@@ -26,6 +26,7 @@
 		0E6CF6F71CC3313100C0EF44 /* Knocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6F61CC3313100C0EF44 /* Knocking.swift */; };
 		0E6CF6F91CC3314800C0EF44 /* Shoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6F81CC3314800C0EF44 /* Shoes.swift */; };
 		0E6CF6FD1CC4EA0D00C0EF44 /* Talking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6FC1CC4EA0D00C0EF44 /* Talking.swift */; };
+		0E88C4C31CC4F1380058EE93 /* Assignment4_Okada.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E88C4C21CC4F1380058EE93 /* Assignment4_Okada.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		0E6CF6F61CC3313100C0EF44 /* Knocking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knocking.swift; sourceTree = "<group>"; };
 		0E6CF6F81CC3314800C0EF44 /* Shoes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shoes.swift; sourceTree = "<group>"; };
 		0E6CF6FC1CC4EA0D00C0EF44 /* Talking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Talking.swift; sourceTree = "<group>"; };
+		0E88C4C21CC4F1380058EE93 /* Assignment4_Okada.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Assignment4_Okada.plist; path = ../../Assignment4_Okada.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				0E6CF6AD1CC30C0B00C0EF44 /* Assets.xcassets */,
 				0E6CF6AF1CC30C0B00C0EF44 /* LaunchScreen.storyboard */,
 				0E6CF6B21CC30C0B00C0EF44 /* Info.plist */,
+				0E88C4C21CC4F1380058EE93 /* Assignment4_Okada.plist */,
 			);
 			path = Assignment_f4;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E88C4C31CC4F1380058EE93 /* Assignment4_Okada.plist in Resources */,
 				0E6CF6E91CC3225600C0EF44 /* MannerTableViewCell.xib in Resources */,
 				0E6CF6B11CC30C0B00C0EF44 /* LaunchScreen.storyboard in Resources */,
 				0E6CF6AE1CC30C0B00C0EF44 /* Assets.xcassets in Resources */,
@@ -533,6 +537,7 @@
 				0E6CF6CD1CC30C0B00C0EF44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E6CF6CE1CC30C0B00C0EF44 /* Build configuration list for PBXNativeTarget "Assignment_f4Tests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +546,7 @@
 				0E6CF6D01CC30C0B00C0EF44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E6CF6D11CC30C0B00C0EF44 /* Build configuration list for PBXNativeTarget "Assignment_f4UITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +555,7 @@
 				0E6CF6D31CC30C0B00C0EF44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
