@@ -9,6 +9,21 @@
 import UIKit
 import MessageUI
 
+extension Array where Element : Equatable {
+    mutating func removeObject(object: Element){
+        if let index = self.indexOf(object){
+            self.removeAtIndex(index)
+        }
+    }
+    
+    mutating func removeObjectsInArray(array: [Element]){
+        for object in array {
+            self.removeObject(object)
+        }
+    }
+}
+
+
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, DestinationDelegate, MFMailComposeViewControllerDelegate {
     
     
@@ -135,7 +150,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.presentViewController(navVC, animated: true, completion: nil)
         
         if self.checked_to_send.contains(self.manners[indexPath.row].name) {
-            
+            self.checked_to_send.removeObject(self.manners[indexPath.row].name)
     
         }
         else {
@@ -231,6 +246,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
             
         }
+    
+    
+ 
+
     }
     
 
