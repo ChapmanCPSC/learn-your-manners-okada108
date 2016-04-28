@@ -133,7 +133,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             }
         }
         self.presentViewController(navVC, animated: true, completion: nil)
-        self.checked_to_send.append(self.manners[indexPath.row].name)
+        
+        if self.checked_to_send.contains(self.manners[indexPath.row].name) {
+            
+    
+        }
+        else {
+            self.checked_to_send.append(self.manners[indexPath.row].name)
+        }
     
         
         
