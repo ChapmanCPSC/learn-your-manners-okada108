@@ -17,16 +17,8 @@
 		0E6CF6C71CC30C0B00C0EF44 /* Assignment_f4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6C61CC30C0B00C0EF44 /* Assignment_f4UITests.swift */; };
 		0E6CF6D51CC30EA800C0EF44 /* MannersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6D41CC30EA800C0EF44 /* MannersDetailViewController.swift */; };
 		0E6CF6D91CC311F600C0EF44 /* Manners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6D81CC311F600C0EF44 /* Manners.swift */; };
-		0E6CF6DB1CC3124100C0EF44 /* Sneezing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6DA1CC3124100C0EF44 /* Sneezing.swift */; };
 		0E6CF6E81CC3225600C0EF44 /* MannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6E61CC3225600C0EF44 /* MannerTableViewCell.swift */; };
 		0E6CF6E91CC3225600C0EF44 /* MannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E6CF6E71CC3225600C0EF44 /* MannerTableViewCell.xib */; };
-		0E6CF6EF1CC3305B00C0EF44 /* Chewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6EE1CC3305B00C0EF44 /* Chewing.swift */; };
-		0E6CF6F11CC330C400C0EF44 /* Coughing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6F01CC330C400C0EF44 /* Coughing.swift */; };
-		0E6CF6F31CC330F700C0EF44 /* Cursing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6F21CC330F700C0EF44 /* Cursing.swift */; };
-		0E6CF6F51CC3311400C0EF44 /* Doors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6F41CC3311400C0EF44 /* Doors.swift */; };
-		0E6CF6F71CC3313100C0EF44 /* Knocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6F61CC3313100C0EF44 /* Knocking.swift */; };
-		0E6CF6F91CC3314800C0EF44 /* Shoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6F81CC3314800C0EF44 /* Shoes.swift */; };
-		0E6CF6FD1CC4EA0D00C0EF44 /* Talking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CF6FC1CC4EA0D00C0EF44 /* Talking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,16 +55,8 @@
 		0E6CF6C81CC30C0B00C0EF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E6CF6D41CC30EA800C0EF44 /* MannersDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MannersDetailViewController.swift; sourceTree = "<group>"; };
 		0E6CF6D81CC311F600C0EF44 /* Manners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Manners.swift; path = ../Manners.swift; sourceTree = "<group>"; };
-		0E6CF6DA1CC3124100C0EF44 /* Sneezing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sneezing.swift; sourceTree = "<group>"; };
 		0E6CF6E61CC3225600C0EF44 /* MannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MannerTableViewCell.swift; path = ../MannerTableViewCell.swift; sourceTree = "<group>"; };
 		0E6CF6E71CC3225600C0EF44 /* MannerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MannerTableViewCell.xib; path = ../MannerTableViewCell.xib; sourceTree = "<group>"; };
-		0E6CF6EE1CC3305B00C0EF44 /* Chewing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chewing.swift; sourceTree = "<group>"; };
-		0E6CF6F01CC330C400C0EF44 /* Coughing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coughing.swift; sourceTree = "<group>"; };
-		0E6CF6F21CC330F700C0EF44 /* Cursing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cursing.swift; sourceTree = "<group>"; };
-		0E6CF6F41CC3311400C0EF44 /* Doors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doors.swift; sourceTree = "<group>"; };
-		0E6CF6F61CC3313100C0EF44 /* Knocking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knocking.swift; sourceTree = "<group>"; };
-		0E6CF6F81CC3314800C0EF44 /* Shoes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shoes.swift; sourceTree = "<group>"; };
-		0E6CF6FC1CC4EA0D00C0EF44 /* Talking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Talking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,14 +109,6 @@
 			children = (
 				0E6CF6A61CC30C0B00C0EF44 /* AppDelegate.swift */,
 				0E6CF6D81CC311F600C0EF44 /* Manners.swift */,
-				0E6CF6F01CC330C400C0EF44 /* Coughing.swift */,
-				0E6CF6F21CC330F700C0EF44 /* Cursing.swift */,
-				0E6CF6F41CC3311400C0EF44 /* Doors.swift */,
-				0E6CF6F61CC3313100C0EF44 /* Knocking.swift */,
-				0E6CF6FC1CC4EA0D00C0EF44 /* Talking.swift */,
-				0E6CF6F81CC3314800C0EF44 /* Shoes.swift */,
-				0E6CF6DA1CC3124100C0EF44 /* Sneezing.swift */,
-				0E6CF6EE1CC3305B00C0EF44 /* Chewing.swift */,
 				0E6CF6A81CC30C0B00C0EF44 /* ViewController.swift */,
 				0E6CF6AA1CC30C0B00C0EF44 /* Main.storyboard */,
 				0E16301C1CCDB665005F0B5D /* SettingsViewController.swift */,
@@ -299,19 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E6CF6F91CC3314800C0EF44 /* Shoes.swift in Sources */,
-				0E6CF6DB1CC3124100C0EF44 /* Sneezing.swift in Sources */,
 				0E6CF6D91CC311F600C0EF44 /* Manners.swift in Sources */,
 				0E6CF6A91CC30C0B00C0EF44 /* ViewController.swift in Sources */,
-				0E6CF6F51CC3311400C0EF44 /* Doors.swift in Sources */,
-				0E6CF6FD1CC4EA0D00C0EF44 /* Talking.swift in Sources */,
-				0E6CF6EF1CC3305B00C0EF44 /* Chewing.swift in Sources */,
 				0E6CF6D51CC30EA800C0EF44 /* MannersDetailViewController.swift in Sources */,
-				0E6CF6F71CC3313100C0EF44 /* Knocking.swift in Sources */,
 				0E16301D1CCDB665005F0B5D /* SettingsViewController.swift in Sources */,
-				0E6CF6F11CC330C400C0EF44 /* Coughing.swift in Sources */,
 				0E6CF6E81CC3225600C0EF44 /* MannerTableViewCell.swift in Sources */,
-				0E6CF6F31CC330F700C0EF44 /* Cursing.swift in Sources */,
 				0E6CF6A71CC30C0B00C0EF44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

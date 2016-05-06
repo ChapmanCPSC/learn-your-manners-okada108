@@ -9,11 +9,19 @@
 import UIKit
 
 
-protocol Manners {
+class Manners {
     
-    var name: String { get }
-    var description: String { get }
-    var picture : UIImage { get }
+    var name: String
+    var description: String
+    var picture : UIImage?
+    
+    init(name: String, description: String, picture: UIImage?)
+    {
+    self.name = name
+    self.description = description
+    self.picture = picture
+    
+    }
 
 }
 
